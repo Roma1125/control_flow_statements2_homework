@@ -9,10 +9,10 @@ def main(a,b,c):
         int: return answer.
     """
     if c<a<b or b<a<c:
-        s=a
+        answer=a
     elif c<b<a or a<b<c:
-        s=b
+        answer=b
     elif b<c<a or a<c<b:
-        s=c
-    return s
+        answer=c
+    return answer
 print (main (1,2,3)) 
