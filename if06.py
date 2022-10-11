@@ -12,14 +12,14 @@ def main(n):
     s=(n//10)%10
     q=(n%10)
     if a>b and a>c and a>s and a>q:
-        d=1
+        d=5
     elif b>a and b>c and b>s and b>q:
-        d=2
+        d=4
     elif c>a and c>b and c>s and c>q:
         d=3
     elif s>a and s>b and s>c and s>q:
-        d=4
+        d=2
     elif q>a and q>b and q>c and q>s:
-        d=5
+        d=1
     return d
 print (main(12345))
