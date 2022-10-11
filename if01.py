@@ -1,4 +1,5 @@
 def main(a,b,c):
+#print("salom dunyo")
     """
     Find the largest of the numbers.
     Args:
@@ -8,4 +9,11 @@ def main(a,b,c):
     Returns:
         int: return answer.
     """
-    return
+    if a>b and a>c:
+        s=a
+    elif b>a and b>c:
+        s=b
+    elif c>a and c>b:
+        s=c
+    return s
+print (main (1,2,3))
